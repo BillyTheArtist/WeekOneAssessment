@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = 'Git is a software used for version control while coding. It tracks changes and helps programmers collaborate!'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = 'GitHub is a cloud service for your git repositories.'
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +26,7 @@
 */
 
 //CODE HERE
-
+let gitInitDefinition = 'git init creates a new git repository'
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +34,7 @@
 */
 
 //CODE HERE
-
+let gitCloneDefinition = 'git clone is used to point at an existing repository and make a copy of it in a new directory at a different location'
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +42,7 @@
 */
 
 //CODE HERE
-
+let gitStatusDefinition = 'git status shows the state of the working directory and the staging area letting you see what changes have been staged and which files aren\'t being tracked by git'
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +53,9 @@
 */
 
 //CODE HERE
+let gitAddDefinition = 'git add adds a change in the working directory to the staging area'
 
+let gitAddCode = 'git add .'
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,7 +66,9 @@
 */
 
 //CODE HERE
+let gitCommitDefinition = 'git commit captures a snapshot of the projects currently staged changes.'
 
+let gitCommitCode = 'git commit -m "comment here"'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +77,5 @@
 */
 
 //CODE HERE
+
+let gitPushDefinition = 'git push uploads the local repository content to a remote repository.'
