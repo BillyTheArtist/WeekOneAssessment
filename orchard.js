@@ -50,6 +50,24 @@ const pinkPrice = .55
 */
 
 // CODE HERE
+let totalAcres = 0;
+
+for (let i = 0; i < fujiAcres.length; i+=1) {
+totalAcres += fujiAcres[i]
+}
+
+for (let i = 0; i < galaAcres.length; i+=1) {
+    totalAcres += galaAcres[i]
+    }
+
+for (let i = 0; i < pinkAcres.length; i+=1) {
+    totalAcres += pinkAcres[i]
+    }    
+
+console.log(totalAcres)
+
+//for PROBLEM 1 I created three for loops to go through each array and find the sum using the addition assignment operator(+=). Then I added them all up to determine the totalAcres value
+
 
 
 
@@ -69,6 +87,11 @@ const pinkPrice = .55
 
 // CODE HERE
 
+ let averageDailyAcres = totalAcres / 21
+ 
+ console.log(averageDailyAcres)
+
+ //For PROBLEM 2 I set the value of variable averageDailyAcres to the average of totalAcres by dividing the value of totalAcres (63) by the sum of each day the respective apples were harvested (21) using the divisionm operator (/) and then logged that to the console.
 
 
 
@@ -106,8 +129,13 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
+while (acresLeft > 0, acresLeft-=21) {
+days++
+}
 
+console.log(days)
 
+//In PROBLEM 3 I used a while statement to determine how many days of work are left to harvest 174 acres of apples by referencing the average numbers of acres harvested a day that I determined in PROBLEM 2.
 
 // PROBLEM 4
 
@@ -135,9 +163,11 @@ let days = 0
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
+let fujiTons =
+
+let galaTons =
+
+let pinkTons =
 
 
 
