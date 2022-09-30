@@ -163,12 +163,15 @@ console.log(days)
 
 // CODE HERE
 
-let fujiTons =
+let fujiTons = [13, 19.5, 19.5, 13, 13, 6.5]
 
-let galaTons =
+let galaTons = [32.5, 13, 26, 19.5, 39, 13, 26]
 
-let pinkTons =
+let pinkTons = [6.5, 32.5, 26, 13, 6.5, 32.5, 26]
 
+for (i = 0; i > fujiTons.length; i++) {
+console.log(fujiTons[i])
+}
 
 
 
